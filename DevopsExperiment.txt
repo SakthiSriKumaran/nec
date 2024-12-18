@@ -1,0 +1,47 @@
+Experiment 1
+git init
+git config --global user.name Sakthi
+git config --global user.email NEC0822129@nttf.co.in
+git add f.txt
+git commit -m "hi"
+git remote add responew alternativerespositoryname
+git push responew master
+git pull responew master
+git branch
+git branch branchattend
+git checkout branchattend
+git merge branchattend
+git push responew branchattend
+git clone repositoryname
+
+Experiment 2
+sudo mkdir Sakthi
+cd Sakthi
+sudo chef generate cookbook sample
+cd sample
+cd recipes
+vim hello.rb
+	file'hello.rb' do
+	content 'sakthi'
+end
+:wq
+chef-apply hello.rb
+
+Experiment 4
+sudo apt update
+sudo apt-get install fontconfig openjdk-11-jre
+sudo apt update
+sudo apt install Jenkins
+sudo systemctl status Jenkins
+sudo systemctl enable Jenkins
+add custom TCP port in security group with range 8080
+paste the ip address with :8080
+for adminstratorpassword go to putty type cd /var/lib/Jenkins/secrets/
+nano intialadminpassword
+add plugins
+create a new role
+create a free style project
+trigger built periodically example hi
+execute the shell
+and click on project and execute
+and display the output in console
